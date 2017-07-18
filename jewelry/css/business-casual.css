@@ -148,6 +148,15 @@ iframe {
     margin-bottom: 50px;
 }
 
+.etsy:hover,
+.etsy-img:hover,
+.facebook:hover,
+.facebook-img:hover,
+.insta:hover,
+.insta-img:hover {
+    opacity: .8;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
