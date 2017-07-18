@@ -22,9 +22,9 @@ a:active {
 
 h1 {
 	margin: 0;
-	padding: 30px;
-	color: pink;
-	font-size: 30px;
+	padding: 60px;
+	color: black;
+	font-size: 50px;
 	text-decoration: underline;
 	text-transform: uppercase;
 	font-family: 'Helvetica';
@@ -53,26 +53,26 @@ h1 {
 	zoom: 1;
 }
 
-@media (min-width: 651px) {
+/*@media (min-width: 651px) {*/
 	.jewelry {
-		background: url('../img/jewelry.jpg') no-repeat center center;
+		background: url('../img/jewelry.png') no-repeat center center;
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
-	  	background-size: 100% 100%;
+	  	background-size: cover;
 	}
-}
+/*}*/
 
-@media (min-width: 901px) {
+/*@media (min-width: 901px) {*/
 	.interior {
 		background: url('../img/interior.png') no-repeat center center;
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
-	  	background-size: 100% 100%;
+	  	background-size: cover;
 	}
-}
-
+/*}*/
+/*
 @media (max-width: 650px) {
 	.jewelry {
 		background: url('../img/jewelry-mobile.jpg') no-repeat center center;
@@ -81,9 +81,9 @@ h1 {
 	    -o-background-size: cover;
 	  	background-size: 100% 100%;
 	}
-}
+}*/
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	.interior {
 		background: url('../img/interior-mobile.png') no-repeat center center;
 		-webkit-background-size: cover;
@@ -91,7 +91,7 @@ h1 {
 	    -o-background-size: cover;
 	  	background-size: 100% 100%;
 	}
-}
+}*/
 
 
 
