@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 30px;
+	color: pink;
+	font-size: 30px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Helvetica';
+	letter-spacing: .07em;
+
+}
+
+.jewelry,
+.interior {
+	width: 100%;
+	max-height: 50vh;
+	min-height: 50vh;
+	margin: 0;
+	opacity: 0.4;
+	-webkit-transition: opacity .5s ease-in-out;
+ 	-moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.jewelry:hover,
+.interior:hover {
+	opacity: 1;
+	cursor: pointer;
+	zoom: 1;
+}
+
+@media (min-width: 651px) {
+	.jewelry {
+		background: url('../img/jewelry.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: 100% 100%;
+	}
+}
+
+@media (min-width: 901px) {
+	.interior {
+		background: url('../img/interior.png') no-repeat center center;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: 100% 100%;
+	}
+}
+
+@media (max-width: 650px) {
+	.jewelry {
+		background: url('../img/jewelry-mobile.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: 100% 100%;
+	}
+}
+
+@media (max-width: 900px) {
+	.interior {
+		background: url('../img/interior-mobile.png') no-repeat center center;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: 100% 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
