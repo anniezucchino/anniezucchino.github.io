@@ -115,8 +115,22 @@ iframe {
     max-height: 900px;
 }
 
-.flower {
-    opacity: .8;
+div.sub-title {
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
+.info-div {
+    min-height: 500px;
+}
+
+.info-hr {
+    margin-bottom: 30px;
+}
+
+img.info-img {
+    max-height: 400px;
 }
 
 .social-nav img {
@@ -168,6 +182,10 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
+    .wedding-img {
+        max-width: 65%;
+    }
+
     .brand {
         display: inherit;
         margin: 0;
